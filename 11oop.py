@@ -149,6 +149,11 @@ sj1 = SungJuk('혜교', 86, 74, 46)
 
 print(sj1)
 
+print(sj1.name)
+print(sj1.kor)
+print(sj1.eng)
+print(sj1.mat)
+
 # 사원 관리를 위한 사원 클래스를 정의
 # 사원번호, 성, 이름, 이메일, 전화번호, 입사일, 직책, 급여, 수당, 상사, 부서번호로 구성
 class Employee:
@@ -173,3 +178,4 @@ emp = Employee(100, 'Steven', 'King', 'steven@gmail.com', '12345678',
                '2003-06-17', 'AD_PRES', 24000, '', 90)
 
 print(emp)
+
